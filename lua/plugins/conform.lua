@@ -3,7 +3,7 @@ return {
 	lazy = false,
 	opts = {
 		formatters_by_ft = {
-			python = { "isort", "black" },
+			python = { "black" },
 			javascript = { "prettierd", "prettier", stop_after_first = true },
 			["*"] = { "codespell" },
 		},
